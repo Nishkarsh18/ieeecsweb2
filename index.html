@@ -193,7 +193,22 @@
            font-weight: 700;
         
        }
-
+@media only screen and (max-width: 1400px)
+    {
+        
+    .container
+        {
+            width: 1000px;
+        }
+    }
+@media only screen and (max-width: 1200px)
+    {
+        
+    .container
+        {
+            width: 800px;
+        }
+    }
 @media only screen and (max-width: 700px)
     {
         
@@ -331,8 +346,8 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
            background-size: cover;
            color: white;
            position: relative;
-           left:500px;
-           top:-1000px;
+           display: flex;
+           justify-content: flex-start;
    
        }
        .owl-theme
@@ -468,7 +483,7 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
 .container
         {
             height: 800px;
-            width: 700px;
+            width: 650px;
             position: absolute;
             left: 150px;
             top:-190px;
@@ -536,6 +551,41 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
        }
 
 }
+@media only screen and (max-width: 380px)
+    {
+        .container
+        {
+            height: 800px;
+            width: 600px;
+            position: absolute;
+            left: 150px;
+            top:-190px;
+        }
+         #customers-testimonials .owl-item.active.center .item img
+       {
+           height:140px;
+           width: 140px;
+           border-radius: 70px;
+           position: relative;
+           top:65px;
+           left: 20px;
+       }
+         #customers-testimonials .owl-item.active.center .item h1
+        {
+            position: relative;
+            left: 145px;
+            top:-75px;
+        }
+        
+        #customers-testimonials .owl-item.active.center .item p
+        {
+            font-size: 12px;
+            position: relative;
+            top:-290px;
+            left: 270px;
+        }
+    
+    }
  </style>
 </head>
 <body>
